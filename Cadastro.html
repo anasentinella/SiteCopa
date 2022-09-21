@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Copa 2022</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+
+  <style type="text/css">
+   
+   @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+
+
+   .fontnaveg,a{
+    font-size: 1.5em;
+    font-family: 'Poiret One', cursive;
+    color: #4D1029;
+    padding-top: 3% ;
+    padding-left: 7.2%;
+    font-weight: bold;
+    text-decoration: none;
+    
+   }
+
+   .titulos,b{
+    font-size: 5em;
+    font-family: 'DM Serif Display', serif;
+    color: #F4ECE2;
+    padding-top: 2%;
+    padding-left: 13%;
+   }
+
+   .titulos2,b{
+    font-size: 2.5em;
+    font-family: 'DM Serif Display', serif;
+    color: #4D1029;
+    text-decoration: overline;
+    text-align: center;
+    padding-top: 6%;
+   }
+
+   .subtitulos{
+    font-size: 2em;
+    font-family: 'Alegreya', serif;
+    color: #F4ECE2;
+    text-align: center;
+   }
+
+   .escritas{
+    font-size: 1.5em;
+    font-family: 'Alegreya', serif;
+    color:#4D1029;
+    padding-left: 8%;
+    
+   }
+   .containerpric {
+        max-width: 700vh;
+        max-height: 500vh;        
+        border: 1px solid #4D1029;        
+        display: flex;
+        padding-top: 4%;
+        padding-left: 2%;
+        
+   }
+   .containerd {
+        max-width: 60vh;
+        max-height: 80vh;        
+        border: 1px solid #4D1029;        
+        display: flex;
+        padding-left: 8%;
+        padding-top: 4%;
+   }
+
+   .containere {
+        max-width: 80vh;
+        max-height: 80vh;        
+        border: 1px solid #F4ECE2;        
+        display: flex;
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-top: 2%;
+        margin-left: 9%;
+        flex-direction: column;
+        
+   }
+
+   .containercent {
+        max-width: 150vh;
+        max-height: 80vh;
+        border: 1px solid #4D1029;
+        display: flex; 
+        flex-direction: row-reverse;
+        padding-top: 30%;
+        padding-left: 15%;
+      }
+
+   .itens,img{
+        padding-left: 5%;
+        flex-direction: row;
+   }
+
+   .padding {
+        max-width: 60vh;
+        max-height: 200vh;
+        border: 1px solid #F4ECE2;
+        background-color: #F4ECE2;
+        margin-left: 30%;
+        flex-direction: column;
+   }
+
+   .box-campos {
+			margin-bottom: 20px;
+   }
+
+   .formataInput {
+			width: 47vh;
+			height: 2.5vh;
+			margin-top: 2%;
+			background-color: #F4ECE2;
+      border-color: #4D1029;
+			border-radius: 5%;
+
+		}
+    #botao {
+      font-family: 'Alegreya', serif;
+    }
+    
+  </style>
+ </head>
+  
+ <body class="bg">
+    <div class="barranaveg">
+    <a class="barranaveg" href="Index.html" >Início</a>
+    <a class="barranaveg" href="Grupos.html" >Grupos</a>
+    <a class="barranaveg" href="Estàdios.html" >Estàdios</a>
+    <a class="barranaveg" href="Qatar.html" >Qatar</a>
+    <a class="barranaveg" href="Mascote.html" >Mascote</a>
+    <a class="barranaveg" href="Selecao.html" >Seleções</a>
+    <a class="barranaveg" href="Cadastro.html" >Cadastre-se</a>
+    </div>
+
+    <div class="titulos">
+        Fifa World Cup Qatar 2022
+    <img src="img/bola64.png.png" alt="bola">
+    </div><br><br>
+
+    <div class="padding"> 
+      <div class="titulos2">Cadastro de Assinantes</div><br><br>
+      <div class="escritas">
+
+        <div class="box-campos">
+          <label for="nome">Nome:</label><br>
+					<input class="formataInput" id="nome" name="nome" type="text" placeholder="Digite seu nome" required minlength="5">
+        </div>
+
+        <div class="box-campos">
+          <label for="email">E-Mail:</label><br>
+					<input class="formataInput" id="email" type="email" required placeholder="nome@email.com">
+        </div>
+
+        <div class="box-campos">
+					<label for="senha">Senha:</label><br>
+					<input class="formataInput" id="senha" type="password" minlength="6" required>
+				</div>
+		        
+				<div class="box-campos">
+					<label>Sexo:</label><br>
+					<input name="sexo" id="f" type="radio" value="f"><label for="f">F</label>
+					<input name="sexo" id="m" type="radio" value="m"><label for="m">M</label>
+          <input name="sexo" id="b" type="radio" value="b"><label for="b">B (não binário)</label>
+				</div>
+		        
+				<div class="box-campos">
+					<label for="aniversario">Data de Nascimento</label><br>
+					<input class="formataInput" id="nascimento" type="date" required>
+				</div>
+
+      <div>
+        <label for="pais">Selecione seu país favorito da copa:</label><br>
+				<input class="formataInput" name="pais" id="pais" list="x" placeholder="Selecione o seu pais">
+				<datalist id="x">
+				 	<option value="QAT">Qatar</option>
+					<option value="ECU">Ecuador</option>
+					<option value="SEN">Senegal</option>
+					<option value="NED">Holanda</option>
+					<option value="ENG">Inglaterra</option>
+					<option value="IRN">Irã</option>
+					<option value="USA">Estados Unidos</option>
+					<option value="WAL">País de Gales</option>
+					<option value="ARG">Argentina</option>
+					<option value="KSA">Arábia Saudita</option>
+					<option value="MEX">México</option>
+					<option value="POL">Polônia</option>
+					<option value="FRA">França</option>
+					<option value="AUS">Austrália</option>
+					<option value="DEN">Dinamarca</option>
+					<option value="TUN">Tunísia</option>
+					<option value="ESP">Espanha</option>
+					<option value="CRC">Costa Rica</option>
+					<option value="GER">Alemanha</option>
+					<option value="JPN">Japão</option>
+					<option value="BEL">Bélgica</option>
+					<option value="CAN">Canadá</option>
+					<option value="MAR">Marrocos</option>
+					<option value="CRO">Croácia</option>
+					<option value="BRA">Brasil</option>
+					<option value="SRB">Sérvia</option>
+					<option value="SUI">Suíça</option>
+          <option value="CMR">Camarões</option>
+          <option value="POR">Portugal</option>
+          <option value="GHA">Gana</option>
+          <option value="URU">Uruguai</option>
+          <option value="KOR">Coréia do Sul</option>
+				 </datalist>
+      </div>
+
+      <br>
+
+      <div class="box-campos">
+        <label for="nota">Seu conhecimento sobre futebol: (0-10s)</label>
+        <input class="formataInput" id="nota" type="range" min="0" max="10">
+      </div> 
+
+      <br><br>
+
+      <button class="formataInput" type="submit" id="botao">Cadastrar</button><br>
+<br><br>
+      </div>
+
+        
+      </div>
+    </div>
+
+  </body>
