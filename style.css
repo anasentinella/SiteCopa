@@ -1,17 +1,21 @@
-.bg{
-  background-color: #4D1029;
+.bg {
+  background: rgb(23, 4, 12);
+  background: linear-gradient(90deg, rgba(23, 4, 12, 1) 0%, rgba(77, 16, 41, 1) 100%);
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
-.barranaveg{
- border-color: #F4ECE2;
- background-color: #F4ECE2;
- box-shadow: #F4ECE2;
- height: 6vh;
- box-sizing: 10px;
- 
+
+.barranaveg {
+  border-color: #F4ECE2;
+  background-color: #F4ECE2;
+  box-shadow: #F4ECE2;
+  height: 6vh;
+  box-sizing: 10px;
+
 
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
