@@ -1,125 +1,412 @@
 <!DOCTYPE html>
- <html lang="en">
- <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Copa 2022</title>
+<html lang="en">
 
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Copa 2022</title>
 
-  <style type="text/css">
-   
-   @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
-   @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
-   @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
-   @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+
+     <style type="text/css">
+          @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
 
 
-   .fontnaveg,a{
-    font-size: 1.5em;
-    font-family: 'Poiret One', cursive;
-    color: #4D1029;
-    padding-top: 3% ;
-    padding-left: 7.2%;
-    font-weight: bold;
-    text-decoration: none;
-    
-   }
+          .fontnaveg,
+          a {
+               font-size: 1.5em;
+               font-family: 'Poiret One', cursive;
+               color: #4D1029;
+               padding-top: 3%;
+               padding-left: 7.2%;
+               font-weight: bold;
+               text-decoration: none;
+               text-shadow: 1px 0px 2px #993a3a;
+          }
 
-   .titulos,b{
-    font-size: 5em;
-    font-family: 'DM Serif Display', serif;
-    color: #F4ECE2;
-    padding-top: 2%;
-    padding-left: 13%;
-   }
+          .titulos,
+          b {
+               font-size: 5em;
+               font-family: 'DM Serif Display', serif;
+               color: #F4ECE2;
+               padding-top: 2%;
+               padding-left: 13%;
+               text-shadow: 5px 5px 5px #833131;
+          }
 
-   .titulos2,b{
-    font-size: 3em;
-    font-family: 'DM Serif Display', serif;
-    color: #F4ECE2;
-    padding-top: 2%;
-    text-align-last: center;
-    text-decoration: overline;
-   }
+          .titulos2,
+          b {
+               font-size: 3em;
+               font-family: 'DM Serif Display', serif;
+               color: #F4ECE2;
+               padding-top: 2%;
+               text-align-last: center;
+               text-decoration: overline;
+               text-shadow: 4px 4px 4px #993a3a;
+          }
 
-   .subtitulos{
-    font-size: 2em;
-    font-family: 'Alegreya', serif;
-    color: #F4ECE2;
-    text-align: center;
-   }
+          .subtitulos {
+               font-size: 2em;
+               font-family: 'Alegreya', serif;
+               color: #F4ECE2;
+               text-align: center;
+          }
 
-   .escritas{
-    font-size: 2em;
-    font-family: 'Alegreya', serif;
-    color: #F4ECE2;
-    text-align: center;
-   }
-   .containerpric {
-        max-width: 700vh;
-        max-height: 500vh;        
-        border: 1px solid #4D1029;        
-        display: flex;
-        padding-top: 4%;
-        padding-left: 2%;
-        
-   }
-   .containerd {
-        max-width: 60vh;
-        max-height: 80vh;        
-        border: 1px solid #4D1029;        
-        display: flex;
-        padding-left: 8%;
-        padding-top: 4%;
-   }
+          .escritas {
+               font-size: 2em;
+               font-family: 'Alegreya', serif;
+               color: #F4ECE2;
+               text-align: center;
+          }
 
-   .containere {
-        max-width: 80vh;
-        max-height: 80vh;        
-        border: 1px solid #F4ECE2;        
-        display: flex;
-        padding-left: 1%;
-        padding-right: 1%;
-        padding-top: 2%;
-        margin-left: 9%;
-        flex-direction: column;
-        
-   }
+          .containerpric {
+               max-width: 700vh;
+               max-height: 500vh;
+               border: 1px solid #4D1029;
+               display: flex;
+               padding-top: 2%;
+               padding-left: 2%;
+               padding-bottom: 1%;
+          }
 
-   .containercent {
-        max-width: 150vh;
-        max-height: 80vh;
-        border: 1px solid #4D1029;
-        display: flex; 
-        flex-direction: row-reverse;
-        padding-top: 30%;
-        padding-left: 15%;
-      }
+          .containerd {
+               max-width: 60vh;
+               max-height: 80vh;
+               border: 1px solid #4D1029;
+               display: flex;
+               padding-left: 8%;
+               padding-top: 4%;
+          }
 
-   .itens,img{
-        padding-left: 5%;
-        flex-direction: row;
-        
-   }
-    
-  </style>
- </head>
-  
- <body class="bg">
-  <div class="barranaveg">
-  <a class="barranaveg" href="Index.html" >Início</a>
-  <a class="barranaveg" href="Grupos.html" >Grupos</a>
-  <a class="barranaveg" href="Estàdios.html" >Estàdios</a>
-  <a class="barranaveg" href="Qatar.html" >Qatar</a>
-  <a class="barranaveg" href="Mascote.html" >Mascote</a>
-  <a class="barranaveg" href="Selecao.html" >Seleções</a>
-  <a class="barranaveg" href="Cadastro.html" >Cadastre-se</a>
-  </div>
+          .containere {
+               max-width: 80vh;
+               max-height: 80vh;
+               border: 1px solid #F4ECE2;
+               display: flex;
+               padding-left: 1%;
+               padding-right: 1%;
+               padding-top: 2%;
+               margin-left: 9%;
+               flex-direction: column;
 
-    <div class="titulos">
-        Fifa World Cup Qatar 2022
-    <img src="img/bola64.png.png" alt="bola">
-    </div><br><br>
+
+          }
+
+          .containercent {
+               max-width: 150vh;
+               max-height: 80vh;
+               border: 1px solid #4D1029;
+               display: flex;
+               flex-direction: row-reverse;
+               padding-top: 30%;
+               padding-left: 15%;
+          }
+
+          .itens,
+          img {
+               padding-left: 1px;
+               flex-direction: row;
+
+          }
+
+          p {
+
+               font: 2em;
+               font-family: 'Alegreya', serif;
+               color: #F4ECE2;
+               text-align: center;
+          }
+
+          .containerHis {
+               max-width: 80vh;
+               max-height: 80vh;
+
+               display: flex;
+               padding-left: 1%;
+               padding-right: 1%;
+               padding-top: 2%;
+               padding-bottom: 5%;
+               margin-left: 9%;
+               flex-direction: column;
+          }
+
+          ul {
+               font: 3em;
+               font-family: 'Alegreya', serif;
+               color: #F4ECE2;
+               list-style-image: url(img/bola64.png.png);
+               text-align: center;
+          }
+     </style>
+</head>
+
+<body class="bg">
+     <div class="barranaveg">
+          <a class="barranaveg" href="Index.html">Início</a>
+          <a class="barranaveg" href="Grupos.html">Grupos</a>
+          <a class="barranaveg" href="Estádios.html">Estádios</a>
+          <a class="barranaveg" href="Qatar.html">Qatar</a>
+          <a class="barranaveg" href="Mascote.html">Mascote</a>
+          <a class="barranaveg" href="Selecao.html">Seleções</a>
+          <a class="barranaveg" href="Cadastro.html">Cadastre-se</a>
+     </div>
+
+     <div class="titulos">
+          Fifa World Cup Qatar 2022
+          <img src="img/bola64.png.png" alt="bola">
+     </div><br><br>
+
+     <div class="titulos2">Estádios Qatar 2022</div><br>
+     <div class="containerpric">
+          <div class="containere">
+               <div class="subtitulos"> ESTÁDIO AL BAYT </div>
+               <div class="itens,img">
+                    <img src="img/Estadio1.webp">
+                    <div class="escritas"> Capacidade para 60 mil pessoas</div>
+                    <p> Localizado na cidade de Al Khor, famosa pelo mergulho de pesca de pérolas, o estádio é uma
+                         réplica do
+                         Bayt al sha'ar, que são as tendas usadas historicamente pelos povos nômades do Qatar.
+                    </p>
+               </div>
+          </div>
+          <div class="containerHis">
+               <br>
+               <div class="subtitulos"> jogos a serem disputados: </div>
+               <ul>
+                    <li>20/11/2022, às 13h - Qatar x Equador (partida de estreia da Copa)</li>
+                    <li>​23/11/2022, às 07h - Marrocos x Croácia </li>
+                    <li>​25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                    <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                    <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                    <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                    <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                    ​<li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                    <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+               </ul>
+          </div>
+     </div>
+     <div class="containerpric">
+          <div class="containere">
+               <div class="subtitulos"> ESTÁDIO AL JANOUB </div>
+               <div class="itens,img">
+                    <img src="img/Estadio2.jpeg">
+                    <div class="escritas"> Capacidade para 40 mil pessoas</div>
+                    <p>
+                         Localizada no sul da cidade de Al Wakrah,
+                         este estádio foi projetado como homenagem aos dhow, que são os barcos de pesca de pérolas - um
+                         dos símbolos mais icônicos da região do Qatar.
+                    </p>
+               </div>
+          </div>
+          <div class="containerHis">
+               <br>
+               <div class="subtitulos"> jogos a serem disputados: </div>
+               <ul>
+                    <li>22/11/2022, às 16h - França x Austrália </li>
+                    <li>24/11/2022, às 07h - Suíça x Camarões </li>
+                    <li>26/11/2022, às 07h - Tunísia x Austrália</li>
+                    <li>28/11/2022, às 07h - Camarões x Sérvia</li>
+                    <li>30/11/2022, às 12h - Austrália x Dinamarca</li>
+                    <li>02/12/2022, às 12h - Gana x Uruguai</li>
+                    <li>05/12/2022, às 12h - A definir x A definir (oitavas de final)</li>
+
+               </ul>
+          </div>
+     </div>
+     <div class="containerpric">
+          <div class="containere">
+               <div class="subtitulos"> ESTÁDIO ÁHMAD BIN ALI </div>
+               <div class="itens,img">
+                    <img src="img/Estadio3.webp">
+                    <div class="escritas"> Capacidade para 40 mil pessoas</div>
+                    <p>
+                         Localizado à beira do deserto em Al Rayyan, ele usa símbolos culturais do Qatar para criar um
+                         estádio que reflete o deserto e a beleza cultural que o rodeia. O Ahmad Bin Ali, aliás, foi
+                         construído para a Copa e substituiu o estádio original que lá se encontrava.
+                         <br>
+                         Cabe destacar que a área do local também abriga o The Mall of Qatar, um novo shopping. Depois
+                         do Mundial, a capacidade do estádio será reduzida pela metade para torná-lo mais adequado ao
+                         uso da comunidade local.
+                    </p>
+               </div>
+          </div>
+          <div class="containerHis">
+               <br>
+               <div class="subtitulos"> jogos a serem disputados: </div>
+               <ul>
+                    <li>21/11/2022, às 16h - Estados Unidos x País de Gales</li>
+                    <li>23/11/2022, às 16h - Bélgica x Canadá </li>
+                    <li>25/11/2022, às 07h - País de Gales x Irã</li>
+                    <li>27/11/2022, às 07h - Japão x Costa Rica</li>
+                    <li>29/11/2022, às 16h - País de Gales x Inglaterra</li>
+                    <li>01/12/2022, às 12h - Croácia x Bélgica</li>
+                    <li>03/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+
+               </ul>
+          </div>
+     </div>
+     <div class="containerpric">
+          <div class="containere">
+               <div class="subtitulos"> ESTÁDIO AL THUMAMA </div>
+               <div class="itens,img">
+                    <img src="img/Estadio4.webp">
+                    <div class="escritas"> Capacidade para 40 mil pessoas</div>
+                    <p>
+                         Localizado em Doha, este estádio é inspirado no tradicional gahfiya, uma touca trançada que
+                         constitui uma parte importante do traje tradicional da região.
+                         <br>
+                         Este também é um estádio construído especificamente para a Copa do Mundo. Após o fim do evento,
+                         a capacidade do local será reduzida para 20 mil lugares. Assim, os assentos adicionais serão
+                         doadas para Nações em desenvolvimento.
+                         <br>
+                         Além disso, um hotel boutique substituirá os assentos superiores do estádio e será adicionada
+                         uma filial da "Aspetar Sports Clinic". Dessa forma, o estádio continuará à serviço da
+                         comunidade mesmo após o fim da Copa do Mundo.
+                    </p>
+               </div>
+          </div>
+          <div class="containerHis">
+               <br>
+               <div class="subtitulos"> jogos a serem disputados: </div>
+               <ul>
+                    <li>21/11/2022, às 13h - Senegal x Holanda</li>
+                    <li>23/11/2022, às 13h - Espanha x Costa Rica </li>
+                    <li>25/11/2022, às 10h - Qatar x Senegal</li>
+                    <li>27/11/2022, às 10h - Bélgica x Marrocos</li>
+                    <li>​29/11/2022, às 16h - Irã x Estados Unidos</li>
+                    <li>01/12/2022, às 12h - Canadá x Marrocos </li>
+                    <li>04/12/2022, às 12h - A definir x A definir (oitavas de final)</li>
+                    <li>10/12/2022, às 12h - A definir x A definir (quartas de final)</li>
+
+               </ul>
+          </div>
+     </div>
+     <div class="containerpric">
+          <div class="containere">
+               <div class="subtitulos"> ESTÁDIO EDUCATION CITY </div>
+               <div class="itens,img">
+                    <img src="img/Estadio5.webp">
+                    <div class="escritas"> Capacidade para 40 mil pessoas</div>
+                    <p>
+                         Este é um estádio que está no centro na inovação. Isso porque desde o sistema de refrigeração
+                         único até os espaços verdes ao seu redor, o Education City foi construído para pensar na
+                         sustentabilidade e no futuro.
+                         <br>
+                         Ao fim da Copa, a capacidade do estádio será reduzida para 25 mil lugares. Assim, os assentos
+                         adicionais serão doados aos países em desenvolvimento.
+                    </p>
+               </div>
+          </div>
+          <div class="containerHis">
+               <br>
+               <div class="subtitulos"> jogos a serem disputados: </div>
+               <ul>
+                    <li>22/11/2022, às 10h - Dinamarca x Tunísia</li>
+                    <li>24/11/2022, às 10h - Uruguai x Coreia do Sul</li>
+                    <li>26/11/2022, às 10h - Polônia x Arábia Saudita </li>
+                    <li>28/11/2022, às 10h - Coreia do Sul x Gana</li>
+                    <li>30/11/2022, às 12h - Tunísia x França</li>
+                    <li>02/12/2022, às 12h - Coreia do Sul x Portugal</li>
+                    <li>06/12/2022, às 10h - A definir x A definir (oitavas de final)</li>
+                    <li>09/12/2022, às 12h - A definir x A definir (quartas de final)</li>
+
+               </ul>
+          </div>
+     </div>
+     <div class="containerpric">
+          <div class="containere">
+               <div class="subtitulos"> ESTÁDIO KHALIFA INTERNATIONAL</div>
+               <div class="itens,img">
+                    <img src="img/Estadio6.webp">
+                    <div class="escritas"> Capacidade para 40 mil pessoas</div>
+                    <p>
+                         Este é o principal estádio do país desde 1976. Nele, foram adicionados dois novos arcos duplos
+                         - que representam a continuidade e o abraço dos torcedores - para a Copa do Mundo.
+                         <br>
+                         Vale destacar que ele faz parte de um desenvolvimento maior que inclui o centro aquático
+                         olímpico do Qatar e um salão coberto. O Villaggio Mall, um parque e o hotel The Torch Doha
+                         também fazem parte do empreendimento.
+                    </p>
+               </div>
+          </div>
+          <div class="containerHis">
+               <br>
+               <div class="subtitulos"> jogos a serem disputados: </div>
+               <ul>
+                    <li>21/11/2022, às 10h - Inglaterra x Irã</li>
+                    <li>23/11/2022, às 10h - Alemanha x Japão</li>
+                    <li>25/11/2022, às 13h - Holanda x Equador</li>
+                    <li>27/11/2022, às 13h - Croácia x Canadá</li>
+                    <li>01/12/2022, às 16h - Japão x Espanha</li>
+                    <li>02/12/2022, às 12h - Coreia do Sul x Portugal</li>
+                    <li>03/12/2022, às 12h - A definir x A definir (oitavas de final)</li>
+                    <li>17/12/2022, às 12h - A definir x A definir (disputa do terceiro lugar)</li>
+
+               </ul>
+          </div>
+     </div>
+     <div class="containerpric">
+          <div class="containere">
+               <div class="subtitulos"> ESTÁDIO 974</div>
+               <div class="itens,img">
+                    <img src="img/Estadio7.webp">
+                    <div class="escritas"> Capacidade para 40 mil pessoas</div>
+                    <p>
+                         Este é um estádio temporário construído ao longo das margens do Golfo. Ele foi construído a
+                         partir de contêineres e usa menos material de construção do que os estádios tradicionais.
+                    </p>
+               </div>
+          </div>
+          <div class="containerHis">
+               <br>
+               <div class="subtitulos"> jogos a serem disputados: </div>
+               <ul>
+                    <li>22/11/2022, às 13h - México x Polônia</li>
+                    <li>24/11/2022, às 13h - Portugal x Gana</li>
+                    <li>26/11/2022, às 13h - França x Dinamarca</li>
+                    <li>28/11/2022, às 13h - Brasil x Suíça</li>
+                    <li>02/12/2022, às 16h - Sérvia x Suíça</li>
+                    <li>02/12/2022, às 12h - Coreia do Sul x Portugal</li>
+                    <li>05/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+               </ul>
+          </div>
+     </div>
+     <div class="containerpric">
+          <div class="containere">
+               <div class="subtitulos">  ESTÁDIO LUSAIL </div>
+               <div class="itens,img">
+                    <img src="img/Estadio8.webp">
+                    <div class="escritas"> Capacidade para 80 mil pessoas</div>
+                    <p>
+                         Localizado 15 km ao norte do centro da cidade de Doha este será o estádio que receberá a final
+                         da Copa do Mundo. Além disso, é o maior deste Mundial, com espaço para 80 mil torcedores.
+                         <br>
+                         O Estádio Lusail foi projetado como uma rica representação do mundo árabe, exibindo motivos de
+                         embarcações, tigelas e peças de arte da região.
+                    </p>
+               </div>
+          </div>
+          <div class="containerHis">
+               <br>
+               <div class="subtitulos"> jogos a serem disputados: </div>
+               <ul>
+                    <li>22/11/2022, às 07h - Argentina x Arábia Saudita</li>
+                    <li>24/11/2022, às 16h - Brasil x Sérvia</li>
+                    <li>26/11/2022, às 16h - Argentina x México</li>
+                    <li>28/11/2022, às 16h - Portugal x Uruguai</li>
+                    <li>30/11/2022, às 16h - Arábia Saudita x México</li>
+                    <li>02/12/2022, às 16h - Camarões x Brasil</li>
+                    <li>06/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                    <li>09/12/2022, às 16h - A definir x A definir (quartas de final)</li>
+                    <li>​13/12/2022, às 16h - A definir x A definir (semifinal)</li>
+                    <li>18/12/2022, às 12h - A definir x A definir (final da Copa do Mundo)</li>
+               </ul>
+          </div>
+     </div>
+</body>
