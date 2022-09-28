@@ -98,16 +98,25 @@ b {
 .itens,
 img {
      padding-left: 5%;
+     margin: 5px;
      flex-direction: row;
 
 }
 
 P {
-     font-size: 1.5em;
+     font-size: 1.4em;
      font-family: 'Alegreya', serif;
      color: #F4ECE2;
      text-align: center;
 }
+.subtitulos2 {
+     font-size: 1.5em;
+     font-family: 'Alegreya', serif;
+     color: #F4ECE2;
+     text-align: center;
+     text-shadow: 5px 5px 5px #833131;
+    
+ }
 
 .containerHis {
      max-width: 80vh;

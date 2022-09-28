@@ -17,18 +17,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
 
 
-        .fontnaveg,
-        a {
-            font-size: 1.5em;
-            font-family: 'Poiret One', cursive;
-            color: #4D1029;
-            padding-top: 3%;
-            padding-left: 7.2%;
-            font-weight: bold;
-            text-decoration: none;
-            text-shadow: 1px 0px 2px #993a3a;
-
-        }
+       }
 
         .titulos,
         b {
@@ -58,19 +47,30 @@
             color: #F4ECE2;
             text-align: center;
             text-shadow: 5px 5px 5px #833131;
+            text-decoration: overline;
         }
 
-        .escritas {
-            font-size: 2em;
+        .subtitulos2 {
+            font-size: 1.5em;
             font-family: 'Alegreya', serif;
             color: #F4ECE2;
             text-align: center;
+            text-shadow: 5px 5px 5px #833131;
+           
+        }
+
+        .escritas {
+            font-size: 1.4em;
+            font-family: 'Alegreya', serif;
+            color: #F4ECE2;
+            text-align: center;
+            text-shadow: 5px 5px 5px #833131;
         }
 
         .containerpric {
             max-width: 700vh;
             max-height: 500vh;
-            border: 1px solid #4D1029;
+            border: 0px solid #4D1029;
             display: flex;
             padding-top: 4%;
             padding-left: 2%;
@@ -111,22 +111,55 @@
 
         .itens,
         img {
-            padding-left: 5%;
+
             flex-direction: row;
 
         }
+
+        .containerHis {
+            max-width: 80vh;
+            max-height: 80vh;
+
+            display: flex;
+            padding-left: 1%;
+            padding-right: 1%;
+            padding-top: 2%;
+            padding-bottom: 5%;
+            margin-left: 9%;
+            flex-direction: column;
+        }
+
+        ul {
+            font-size: 1.5em;
+            font-family: 'Alegreya', serif;
+            color: #F4ECE2;
+
+        }
+
+        /*@media (max-width: 600px) {
+            .containerpric {
+                display: flex;
+                width: 100%;
+                flex-direction: column;
+                font-size: 1rem;
+            }
+
+            .containerHis {
+                margin-top: 5vh;
+            }
+        }*/
     </style>
 </head>
 
 <body class="bg">
-    <div class="barranaveg">
-        <a class="barranaveg" href="Index.html">Início</a>
-        <a class="barranaveg" href="Grupos.html">Grupos</a>
-        <a class="barranaveg" href="Estádios.html">Estádios</a>
-        <a class="barranaveg" href="Qatar.html">Qatar</a>
-        <a class="barranaveg" href="Mascote.html">Mascote</a>
-        <a class="barranaveg" href="Selecao.html">Seleções</a>
-        <a class="barranaveg" href="Cadastro.html">Cadastre-se</a>
+    <div class="navbar">
+        <a  href="Index.html">Início</a>
+        <a  href="Grupos.html">Grupos</a>
+        <a  href="Estádios.html">Estádios</a>
+        <a  href="Qatar.html">Qatar</a>
+        <a  href="Mascote.html">Mascote</a>
+        <a  href="Selecao.html">Seleções</a>
+        <a  href="Cadastro.html">Cadastre-se</a>
     </div>
 
     <div class="titulos">
@@ -135,7 +168,888 @@
     </div><br><br>
     <div class="titulos2">Seleções Qatar 2022</div><br>
 
-    <div class="subtitulos">Brasil foda pra krl</div>
+    <div class="subtitulos2">Alemanha, Arábia Saudita, Argentina, Austrália, Bélgica, Brasil, Camarões, Canadá, Catar, Coreia do
+        Sul<br>
+        Costa Rica, Croácia, Dinamarca, Equador, Espanha, Estados Unidos, França, Gana, Holanda, Inglaterra, Irã, Japão <br>
+        Marrocos, México, País de Gales, Polônia, Portugal, Senegal, Sérvia, Suíça, Tunísia, Uruguai.</div>
+
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> Alemanha <img src="https://i.pinimg.com/originals/37/e6/71/37e6715c4e3f92cf99ac71adf4a615bf.png" width="15%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/481/ger" target="_blank">
+                    <img src="https://cdn1.stuttgarter-zeitung.de/media.media.226ef7d5-33ee-4fd0-babd-38183967672d.original1024.jpg" alt="timeAlemanha" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> História: </div>
+            <br>
+            <p class="escritas">Localizado na Europa, o país tem uma equipe nacional para 
+            jogos de futebol desde 1908, quando o time jogou contra a Suíça e foi derrotado. 
+            Desde o início, as cores foram as tradicionais e que perduram até hoje: camisas 
+            branca e calções preto.</p>
+            <br>
+            <p class="escritas">A Alemanha tem um rendimento impressionante nos Mundiais. 
+            Os alemães venceram quatro Copas do Mundo (1954, 1974, 1990 e 2014), foram 
+            vice-campeões em 1966, 1982, 1986 e 2002; terceiro lugar em 1934, 1970, 2006 
+            e 2010 e quarto lugar em 1958. A seleção alemã chegou 13 vezes entre os quatro primeiros.</p>
+            <br>
+            <p class="escritas"> Os adversários da Alemanha são: Japão, Espanha e  Costa Rica, 
+            definidos sorteio da Copa do Mundo de 2022. Os jogos da Alemanha na 1º Fase serão 
+            em Al Khor e em Al Rayyan. </p>
+        </div>
+    </div>
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> Arábia Saudita <img src="https://i.pinimg.com/originals/b6/db/8f/b6db8fcb07403e56f8c53c6f35520e1c.png" width="15%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/655/saudi-arabia" target="_blank">
+                    <img src="https://th.bing.com/th/id/R.f9cb73a838508234358a417814ec878a?rik=msQgYFcp05qlzA&riu=http%3a%2f%2fcdn.24.co.za%2ffiles%2fCms%2fGeneral%2fd%2f9633%2ffb8f7b492c564e1b8bb64608855a93d4.jpg&ehk=y1wErym7f4uW0fUmDq26FxqBseba%2bOMDa7f%2ff8ZpRfs%3d&risl=&pid=ImgRaw&r=0" alt="timeArabiaSaudita" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> Elenco: </div>
+            <ul>
+                <li>20/11/2022, às 13h - Qatar x Equador (partida de estreia da Copa)</li>
+                <li>23/11/2022, às 07h - Marrocos x Croácia </li>
+                <li>25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                <li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> Argentina <img src="https://i.pinimg.com/originals/3c/fc/51/3cfc514f25e6931cfb114bf1f5c5c853.png" width="14%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/202/arg" target="_blank">
+                    <img src="https://img2.thejournal.ie/inline/1521513/original/?width=630&version=1521513" alt="timeArgentina" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> DECIDIR  </div>
+            <ul>
+                <li>TITULOS E PROCESSOS NA ULTIMA COPA</li>
+                <li>23/11/2022, às 07h - Marrocos x Croácia </li>
+                <li>25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                <li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> Austrália <img src="https://th.bing.com/th/id/OIP.FmmaNeeNJSyh3bVMXacr8AHaIl?pid=ImgDet&w=600&h=695&rs=1" width="14%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/2751/australia" target="_blank">
+                    <img src="https://www.acorianooriental.pt/images/stock/20687.jpg" alt="timeAustralia" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> Elenco: </div>
+            <ul>
+                <li>20/11/2022, às 13h - Qatar x Equador (partida de estreia da Copa)</li>
+                <li>23/11/2022, às 07h - Marrocos x Croácia </li>
+                <li>25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                <li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> Bélgica <img src="img/brasaoAlemanha.jpg" width="14%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/481/ger" target="_blank">
+                    <img src="img/timeAlemanha.jpeg" alt="timeAlemanha" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> Elenco: </div>
+            <ul>
+                <li>20/11/2022, às 13h - Qatar x Equador (partida de estreia da Copa)</li>
+                <li>23/11/2022, às 07h - Marrocos x Croácia </li>
+                <li>25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                <li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> Brasil <img src="img/brasaoAlemanha.jpg" width="14%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/481/ger" target="_blank">
+                    <img src="img/timeAlemanha.jpeg" alt="timeAlemanha" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> Elenco: </div>
+            <ul>
+                <li>20/11/2022, às 13h - Qatar x Equador (partida de estreia da Copa)</li>
+                <li>23/11/2022, às 07h - Marrocos x Croácia </li>
+                <li>25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                <li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> Camarões <img src="img/brasaoAlemanha.jpg" width="14%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/481/ger" target="_blank">
+                    <img src="img/timeAlemanha.jpeg" alt="timeAlemanha" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> Elenco: </div>
+            <ul>
+                <li>20/11/2022, às 13h - Qatar x Equador (partida de estreia da Copa)</li>
+                <li>23/11/2022, às 07h - Marrocos x Croácia </li>
+                <li>25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                <li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> Canadá <img src="img/brasaoAlemanha.jpg" width="14%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/481/ger" target="_blank">
+                    <img src="img/timeAlemanha.jpeg" alt="timeAlemanha" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> Elenco: </div>
+            <ul>
+                <li>20/11/2022, às 13h - Qatar x Equador (partida de estreia da Copa)</li>
+                <li>23/11/2022, às 07h - Marrocos x Croácia </li>
+                <li>25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                <li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> Catar <img src="img/brasaoAlemanha.jpg" width="14%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/481/ger" target="_blank">
+                    <img src="img/timeAlemanha.jpeg" alt="timeAlemanha" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> Elenco: </div>
+            <ul>
+                <li>20/11/2022, às 13h - Qatar x Equador (partida de estreia da Copa)</li>
+                <li>23/11/2022, às 07h - Marrocos x Croácia </li>
+                <li>25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                <li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> Coreia do Sul <img src="img/brasaoAlemanha.jpg" width="14%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/481/ger" target="_blank">
+                    <img src="img/timeAlemanha.jpeg" alt="timeAlemanha" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> Elenco: </div>
+            <ul>
+                <li>20/11/2022, às 13h - Qatar x Equador (partida de estreia da Copa)</li>
+                <li>23/11/2022, às 07h - Marrocos x Croácia </li>
+                <li>25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                <li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> Costa Rica <img src="img/brasaoAlemanha.jpg" width="14%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/481/ger" target="_blank">
+                    <img src="img/timeAlemanha.jpeg" alt="timeAlemanha" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> Elenco: </div>
+            <ul>
+                <li>20/11/2022, às 13h - Qatar x Equador (partida de estreia da Copa)</li>
+                <li>23/11/2022, às 07h - Marrocos x Croácia </li>
+                <li>25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                <li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> Croácia <img src="img/brasaoAlemanha.jpg" width="14%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/481/ger" target="_blank">
+                    <img src="img/timeAlemanha.jpeg" alt="timeAlemanha" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> Elenco: </div>
+            <ul>
+                <li>20/11/2022, às 13h - Qatar x Equador (partida de estreia da Copa)</li>
+                <li>23/11/2022, às 07h - Marrocos x Croácia </li>
+                <li>25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                <li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> Dinamarca <img src="img/brasaoAlemanha.jpg" width="14%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/481/ger" target="_blank">
+                    <img src="img/timeAlemanha.jpeg" alt="timeAlemanha" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> Elenco: </div>
+            <ul>
+                <li>20/11/2022, às 13h - Qatar x Equador (partida de estreia da Copa)</li>
+                <li>23/11/2022, às 07h - Marrocos x Croácia </li>
+                <li>25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                <li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> Equador <img src="img/brasaoAlemanha.jpg" width="14%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/481/ger" target="_blank">
+                    <img src="img/timeAlemanha.jpeg" alt="timeAlemanha" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> Elenco: </div>
+            <ul>
+                <li>20/11/2022, às 13h - Qatar x Equador (partida de estreia da Copa)</li>
+                <li>23/11/2022, às 07h - Marrocos x Croácia </li>
+                <li>25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                <li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> Espanha <img src="img/brasaoAlemanha.jpg" width="14%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/481/ger" target="_blank">
+                    <img src="img/timeAlemanha.jpeg" alt="timeAlemanha" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> Elenco: </div>
+            <ul>
+                <li>20/11/2022, às 13h - Qatar x Equador (partida de estreia da Copa)</li>
+                <li>23/11/2022, às 07h - Marrocos x Croácia </li>
+                <li>25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                <li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> Estados Unidos <img src="img/brasaoAlemanha.jpg" width="14%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/481/ger" target="_blank">
+                    <img src="img/timeAlemanha.jpeg" alt="timeAlemanha" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> Elenco: </div>
+            <ul>
+                <li>20/11/2022, às 13h - Qatar x Equador (partida de estreia da Copa)</li>
+                <li>23/11/2022, às 07h - Marrocos x Croácia </li>
+                <li>25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                <li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> França <img src="img/brasaoAlemanha.jpg" width="14%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/481/ger" target="_blank">
+                    <img src="img/timeAlemanha.jpeg" alt="timeAlemanha" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> Elenco: </div>
+            <ul>
+                <li>20/11/2022, às 13h - Qatar x Equador (partida de estreia da Copa)</li>
+                <li>23/11/2022, às 07h - Marrocos x Croácia </li>
+                <li>25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                <li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> Gana <img src="img/brasaoAlemanha.jpg" width="14%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/481/ger" target="_blank">
+                    <img src="img/timeAlemanha.jpeg" alt="timeAlemanha" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> Elenco: </div>
+            <ul>
+                <li>20/11/2022, às 13h - Qatar x Equador (partida de estreia da Copa)</li>
+                <li>23/11/2022, às 07h - Marrocos x Croácia </li>
+                <li>25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                <li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> Holanda <img src="img/brasaoAlemanha.jpg" width="14%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/481/ger" target="_blank">
+                    <img src="img/timeAlemanha.jpeg" alt="timeAlemanha" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> Elenco: </div>
+            <ul>
+                <li>20/11/2022, às 13h - Qatar x Equador (partida de estreia da Copa)</li>
+                <li>23/11/2022, às 07h - Marrocos x Croácia </li>
+                <li>25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                <li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> Inglaterra <img src="img/brasaoAlemanha.jpg" width="14%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/481/ger" target="_blank">
+                    <img src="img/timeAlemanha.jpeg" alt="timeAlemanha" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> Elenco: </div>
+            <ul>
+                <li>20/11/2022, às 13h - Qatar x Equador (partida de estreia da Copa)</li>
+                <li>23/11/2022, às 07h - Marrocos x Croácia </li>
+                <li>25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                <li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> Irã <img src="img/brasaoAlemanha.jpg" width="14%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/481/ger" target="_blank">
+                    <img src="img/timeAlemanha.jpeg" alt="timeAlemanha" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> Elenco: </div>
+            <ul>
+                <li>20/11/2022, às 13h - Qatar x Equador (partida de estreia da Copa)</li>
+                <li>23/11/2022, às 07h - Marrocos x Croácia </li>
+                <li>25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                <li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> Japão <img src="img/brasaoAlemanha.jpg" width="14%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/481/ger" target="_blank">
+                    <img src="img/timeAlemanha.jpeg" alt="timeAlemanha" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> Elenco: </div>
+            <ul>
+                <li>20/11/2022, às 13h - Qatar x Equador (partida de estreia da Copa)</li>
+                <li>23/11/2022, às 07h - Marrocos x Croácia </li>
+                <li>25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                <li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> Marrocos<img src="img/brasaoAlemanha.jpg" width="14%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/481/ger" target="_blank">
+                    <img src="img/timeAlemanha.jpeg" alt="timeAlemanha" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> Elenco: </div>
+            <ul>
+                <li>20/11/2022, às 13h - Qatar x Equador (partida de estreia da Copa)</li>
+                <li>23/11/2022, às 07h - Marrocos x Croácia </li>
+                <li>25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                <li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> México <img src="img/brasaoAlemanha.jpg" width="14%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/481/ger" target="_blank">
+                    <img src="img/timeAlemanha.jpeg" alt="timeAlemanha" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> Elenco: </div>
+            <ul>
+                <li>20/11/2022, às 13h - Qatar x Equador (partida de estreia da Copa)</li>
+                <li>23/11/2022, às 07h - Marrocos x Croácia </li>
+                <li>25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                <li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> País de Gales <img src="img/brasaoAlemanha.jpg" width="14%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/481/ger" target="_blank">
+                    <img src="img/timeAlemanha.jpeg" alt="timeAlemanha" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> Elenco: </div>
+            <ul>
+                <li>20/11/2022, às 13h - Qatar x Equador (partida de estreia da Copa)</li>
+                <li>23/11/2022, às 07h - Marrocos x Croácia </li>
+                <li>25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                <li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> Polónia <img src="img/brasaoAlemanha.jpg" width="14%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/481/ger" target="_blank">
+                    <img src="img/timeAlemanha.jpeg" alt="timeAlemanha" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> Elenco: </div>
+            <ul>
+                <li>20/11/2022, às 13h - Qatar x Equador (partida de estreia da Copa)</li>
+                <li>23/11/2022, às 07h - Marrocos x Croácia </li>
+                <li>25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                <li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> Portugal <img src="img/brasaoAlemanha.jpg" width="14%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/481/ger" target="_blank">
+                    <img src="img/timeAlemanha.jpeg" alt="timeAlemanha" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> Elenco: </div>
+            <ul>
+                <li>20/11/2022, às 13h - Qatar x Equador (partida de estreia da Copa)</li>
+                <li>23/11/2022, às 07h - Marrocos x Croácia </li>
+                <li>25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                <li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> Senegal <img src="img/brasaoAlemanha.jpg" width="14%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/481/ger" target="_blank">
+                    <img src="img/timeAlemanha.jpeg" alt="timeAlemanha" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> Elenco: </div>
+            <ul>
+                <li>20/11/2022, às 13h - Qatar x Equador (partida de estreia da Copa)</li>
+                <li>23/11/2022, às 07h - Marrocos x Croácia </li>
+                <li>25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                <li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> Sérvia <img src="img/brasaoAlemanha.jpg" width="14%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/481/ger" target="_blank">
+                    <img src="img/timeAlemanha.jpeg" alt="timeAlemanha" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> Elenco: </div>
+            <ul>
+                <li>20/11/2022, às 13h - Qatar x Equador (partida de estreia da Copa)</li>
+                <li>23/11/2022, às 07h - Marrocos x Croácia </li>
+                <li>25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                <li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> Súiça <img src="img/brasaoAlemanha.jpg" width="14%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/481/ger" target="_blank">
+                    <img src="img/timeAlemanha.jpeg" alt="timeAlemanha" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> Elenco: </div>
+            <ul>
+                <li>20/11/2022, às 13h - Qatar x Equador (partida de estreia da Copa)</li>
+                <li>23/11/2022, às 07h - Marrocos x Croácia </li>
+                <li>25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                <li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> Tunísia <img src="img/brasaoAlemanha.jpg" width="14%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/481/ger" target="_blank">
+                    <img src="img/timeAlemanha.jpeg" alt="timeAlemanha" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> Elenco: </div>
+            <ul>
+                <li>20/11/2022, às 13h - Qatar x Equador (partida de estreia da Copa)</li>
+                <li>23/11/2022, às 07h - Marrocos x Croácia </li>
+                <li>25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                <li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="containerpric">
+        <div class="containere">
+            <div class="subtitulos"> Uruguai <img src="img/brasaoAlemanha.jpg" width="14%" align="left"> </div>
+            <br>
+            <div class="itens">
+                <a href="https://www.espn.com.br/futebol/time/elenco/_/id/481/ger" target="_blank">
+                    <img src="img/timeAlemanha.jpeg" alt="timeAlemanha" width="90%">
+                </a>
+            </div>
+        </div>
+        <div class="containerHis">
+            <br>
+            <div class="subtitulos"> Elenco: </div>
+            <ul>
+                <li>20/11/2022, às 13h - Qatar x Equador (partida de estreia da Copa)</li>
+                <li>23/11/2022, às 07h - Marrocos x Croácia </li>
+                <li>25/11/2022, às 16h - Inglaterra x Estados Unidos</li>
+                <li>27/11/2022, às 16h - Espanha x Alemanha</li>
+                <li>29/11/2022, às 12h - Holanda x Qatar</li>
+                <li>01/12/2022, às 16h - Costa Rica x Alemanha</li>
+
+                <li>04/12/2022, às 16h - A definir x A definir (oitavas de final)</li>
+                <li>10/12/2022, às 16h - A definir x A definir (quartas de final) </li>
+                <li> 14/12/2022, às 16h - A definir x A definir (semifinal)</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
 </body>
 
 </html>
