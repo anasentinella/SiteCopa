@@ -1,3 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+
+
+.fontnaveg,
+a {
+     font-size: 1.5em;
+     font-family: 'Poiret One', cursive;
+     color: #4D1029;
+     /* padding-top: 3%; */
+     /* padding-left: 7.2%; */
+     font-weight: bold;
+     text-decoration: none;
+     text-shadow: 1px 0px 2px #993a3a;
+
+}
+
+.titulos,
+b {
+     font-size: 5em;
+     font-family: 'DM Serif Display', serif;
+     color: #F4ECE2;
+     padding-top: 2%;
+     text-align: center;
+     text-shadow: 5px 5px 5px #833131;
+}
+
+.titulos2,
+b {
+     font-size: 3em;
+     font-family: 'DM Serif Display', serif;
+     color: #F4ECE2;
+     padding-top: 2%;
+     text-align-last: center;
+     text-decoration: overline;
+     text-shadow: 5px 5px 5px #833131;
+}
+
+.subtitulos {
+     font-size: 2em;
+     font-family: 'Alegreya', serif;
+     color: #F4ECE2;
+     text-align: center;
+     text-shadow: 5px 5px 5px #833131;
+     text-decoration: underline;
+}
+
+.escritas {
+     font-size: 2em;
+     font-family: 'Alegreya', serif;
+     color: #F4ECE2;
+     text-align: center;
+}
+
+.containerpric {
+     max-width: 800vh;
+     max-height: 600vh;
+     border: 0px solid #4D1029;
+     display: flex;
+     padding-top: 4%;
+     padding-left: 2%;
+
+}
+
+.containerd {
+     max-width: 60vh;
+     max-height: 80vh;
+     border: 0px solid #4D1029;
+     display: flex;
+     padding-left: 4%;
+     padding-top: 4%;
+}
+
+.containere {
+     max-width: 80vh;
+     max-height: 80vh;
+     border: 0px solid #F4ECE2;
+     display: flex;
+     padding-right: 1%;
+     padding-top: 2%;
+     margin-left: 9%;
+     flex-direction: column;
+
+}
+
+.containercent {
+     max-width: 150vh;
+     max-height: 80vh;
+     border: 0px solid #4D1029;
+     display: flex;
+     flex-direction: row-reverse;
+     padding-top: 30%;
+     padding-left: 15%;
+}
+
+.itens,
+img {
+     padding-left: 5%;
+     flex-direction: row;
+
+}
+
+P {
+     font-size: 1.5em;
+     font-family: 'Alegreya', serif;
+     color: #F4ECE2;
+     text-align: center;
+}
+
+.containerHis {
+     max-width: 80vh;
+     max-height: 80vh;
+
+     display: flex;
+     padding-left: 1%;
+     padding-right: 1%;
+     padding-top: 2%;
+     padding-bottom: 5%;
+     margin-left: 9%;
+     flex-direction: column;
+}
+
 .bg {
   background: rgb(23, 4, 12);
   background: linear-gradient(90deg, rgba(23, 4, 12, 1) 0%, rgba(77, 16, 41, 1) 100%);
@@ -5,14 +129,21 @@
   background-attachment: fixed;
 }
 
-.barranaveg {
+.navbar {
   border-color: #F4ECE2;
   background-color: #F4ECE2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+}
+
+a > .navbar {
   box-shadow: #F4ECE2;
-  height: 6vh;
-  box-sizing: 10px;
-
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 * {
