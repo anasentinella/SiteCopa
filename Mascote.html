@@ -34,7 +34,7 @@
           }
 
           .subtitulos {
-               font-size: 2em;
+               font-size: em;
                font-family: 'Alegreya', serif;
                color: #F4ECE2;
                text-align: center;
@@ -42,61 +42,87 @@
           }
 
           .escritas {
-               font-size: 2em;
+               font-size: 1.3em;
                font-family: 'Alegreya', serif;
                color: #F4ECE2;
                text-align: center;
 
           }
 
-          .containerpric {
-               max-width: 700vh;
-               max-height: 500vh;
-               border: 1px solid #4D1029;
-               display: flex;
-               padding-top: 4%;
-               padding-left: 2%;
-
+          .containerprinc2 {
+          max-width: 800vh;
+          max-height: 600vh;
+          border: 0px solid #4D1029;
+          padding-top: 4%;
+          padding-left: 2%;
+          flex-direction: row;
+          display: flex;
           }
 
+          .containerpric {
+               width: 100vh;
+               margin-left: 4%;
+               flex-direction:row;
+          }
+         
+
+          .containeres {
+            width: 23%;
+            border: 1px solid #F4ECE2;
+            padding-left: 1%;
+            padding-right: 1%;
+            padding-top: 2%;
+            margin-left: 5.5%;
+            flex-direction: column;
+            padding-bottom: 2%;
+
+        }
+
           .containerd {
-               max-width: 60vh;
-               max-height: 80vh;
-               border: 1px solid #4D1029;
-               display: flex;
-               padding-left: 8%;
+               width: 35%;
+               padding-left: 15%;
                padding-top: 4%;
+               flex-direction:column;
+
           }
 
           .containere {
-               max-width: 80vh;
-               max-height: 80vh;
-               border: 1px solid #F4ECE2;
-               display: flex;
-               padding-left: 1%;
-               padding-right: 1%;
-               padding-top: 2%;
-               margin-left: 9%;
-               flex-direction: column;
+               width: 35%;
+               padding-right: 15%;
+               padding-top: 4%;
+               flex-direction:column;
+
 
           }
 
-          .containercent {
-               max-width: 150vh;
-               max-height: 80vh;
-               border: 1px solid #4D1029;
-               display: flex;
-               flex-direction: row-reverse;
-               padding-top: 30%;
-               padding-left: 15%;
+          .flex-itens{
+               align-items: center;
+               
           }
 
-          .itens,
-          img {
-               padding-left: 5%;
-               flex-direction: row;
-
+          .titmasc{
+          font-family: 'DM Serif Display', serif;
+          font-size: 7em;
+          color: #F4ECE2;
+          margin-top: 45%;
+          margin-left: 28%;
           }
+
+        @keyframes animacaomasc {
+          from{
+               width: 5px;
+          }
+          to{
+               width: 60px;
+          }
+        }
+
+        div{
+          animation-name: animacaomasc;
+          animation-iteration-count: infinite;
+          animation-delay: 5s;
+          animation-timing-function: cubic-bezier();
+        }
      </style>
 </head>
 
@@ -116,6 +142,62 @@
           <img src="img/bola64.png.png" alt="bola">
      </div><br><br>
      <div class="titulos2">Mascote Qatar 2022</div><br>
+
+          <div class="containerpric">
+               <div class="flex-itens">
+                    <div>
+                    <img src="img/mascotec.png.png" alt="Mascote Qatar">
+                    </div>
+               </div>
+               <div class="flex-itens">
+               <div class="titmasc">
+                    La'eeb
+               </div>
+          </div>
+          </div>
+               <br><br>
+               <div class="containerprinc2">
+                    <div class="containeres">
+               <div class="subtitulos">O Mascote: </div><br>
+               <div class="escritas">
+               Desde 1966, os mascotes dos Mundiais roubam a cena 
+               entre o público e conquistam o coração de crianças e torcedores.
+               A Fifa revelou o mascote da Copa do Mundo do Qatar. Ele 
+               se chama La'eeb que, em árabe, significa “craque” ou “super habilidoso”.
+               O novo mascote da Copa foi revelado em uma animação exibida pelo Comitê 
+               Organizador Local antes do sorteio dos grupos em si. O desenho de La'eeb 
+               se baseia em lenços de cabeça tradicionais da cultura árabe.
+                    </div>
+                    </div><br>
+
+                    <div class="containeres">
+                         <div class="subtitulos">Conheça o Mascote: </div><br>
+                         <div class="escritas">
+                              Segundo a Fifa, La'eeb será conhecido por seu espírito 
+                              jovem; espalhando alegria e confiança por onde passa. 
+                              “La'eeb vem de um mundo paralelo onde vivem mascotes de torneios. 
+                              É um mundo onde ideias e criatividade formam a base de personagens 
+                              que vivem na mente de todos”, afirma a federação de futebol em seu site.<br>
+                              </div>
+                              </div>
+                    
+                    <div class="containeres">
+                         <div class="subtitulos">Desing: </div><br>
+                         <div class="escritas">
+                              O mascote é baseado no ghutrah ou shemagh, o tradicional lenço 
+                              quadrado que os homens árabes usam na cabeça. Em geral, 
+                              ele é feito de algodão. Costuma ser branco e preto entre 
+                              os beduínos, branco e vermelho entre os jordanianos e 
+                              totalmente branco entre quem mora nas cidades.
+                              Além do ghutrah, o La’eeb também usa o agal ou iqal, 
+                              um cordão preto, dobrado e que mantém o lenço no lugar. 
+                              Normalmente é feito de pêlo de cabra e só é visto em homens.<br>
+                         </div>
+                         </div>
+               </div>
+               <br><br><br>   
+     </div>
+               
 </body>
 
 </html>
