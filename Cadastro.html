@@ -14,7 +14,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+    @import url('https://fonts.googleapis.com/css2? family= Cabine & display=swap');
 
 
    
@@ -40,101 +40,51 @@
 
     }
 
-    .subtitulos {
-      font-size: 2em;
-      font-family: 'Alegreya', serif;
-      color: #F4ECE2;
-      text-align: center;
-      text-shadow: 5px 5px 5px #833131;
-    }
-
-    .escritas {
-      font-size: 1.5em;
-      font-family: 'Alegreya', serif;
-      color: #4D1029;
-      padding-left: 8%;
-
-    }
-
-    .containerpric {
-      max-width: 700vh;
-      max-height: 500vh;
-      border: 1px solid #4D1029;
-      display: flex;
-      padding-top: 4%;
-      padding-left: 2%;
-
-    }
-
-    .containerd {
-      max-width: 60vh;
-      max-height: 80vh;
-      border: 1px solid #4D1029;
-      display: flex;
-      padding-left: 8%;
-      padding-top: 4%;
-    }
-
-    .containere {
-      max-width: 80vh;
-      max-height: 80vh;
-      border: 1px solid #F4ECE2;
-      display: flex;
-      padding-left: 1%;
-      padding-right: 1%;
-      padding-top: 2%;
-      margin-left: 9%;
-      flex-direction: column;
-
-    }
-
-    .containercent {
-      max-width: 150vh;
-      max-height: 80vh;
-      border: 1px solid #4D1029;
-      display: flex;
-      flex-direction: row-reverse;
-      padding-top: 30%;
-      padding-left: 15%;
-    }
-
-    .itens,
-    img {
-      padding-left: 5%;
-      flex-direction: row;
-    }
+    
 
     .padding {
-      max-width: 60vh;
-      max-height: 200vh;
+      width: 46% ;
       border: 1px solid #F4ECE2;
       background-color: #F4ECE2;
-      flex-direction: column;
+      margin-left: 26%;
     }
 
     .box {
 			border: 1px solid lightgrey;
 			border-radius: 5px;
-			max-width: 500px;
 			box-shadow: 5px 5px 8px #4D1029;
-			padding: 10px 30px 10px 30px;
+      align-items: left;
+			
 		}
 
     .box-campos {
-      margin-bottom: 20px;
+      margin-bottom: 4%;
+      margin-left: 19%;
     }
     
     label {
 			color: #4D1029;
 			font-weight: bold;
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.5em;
+      
+      
 		}
 
     .formataInput {
-			width: 100%;
-			height: 30px;
+			width: 75%;
+			height: 25px;
 			margin-top: 5px;
-			background-color: lightgray;
+			background-color: rgb(210, 196, 196);
 			border-radius: 5px;
+    }
+    .formataInputbtn {
+			width: 60%;
+			background-color: #4D1029;
+			border-radius: 5px;
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.5em;
+      margin-left: 8.5%;
     }
 
     input:hover {
@@ -159,7 +109,7 @@
 			color: #F4ECE2;
 			text-shadow: 1px 1px #6E3C51;
 			font-weight: bold;
-			font-size: 20px;
+			font-size: 0.8em;
 			padding: 10px 0px 10px 0px;
 
 			border-radius: 10px;
@@ -169,7 +119,6 @@
 			border-top: 5px solid #6E3C51;
 			border-left: 5px solid #6E3C51;
 
-      font-family: 'Alegreya', serif;
 		}
     
     button:hover {
@@ -181,11 +130,7 @@
 			border-left: 5px solid #4D1029;
 		}
 
-    .container {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-    }
+    
   </style>
 </head>
 
@@ -205,23 +150,22 @@
     <img src="img/bola64.png.png" alt="bola">
   </div><br><br>
 
-  <div class="container">
+
     <div class="padding">
       <div class="titulos2">Cadastro de Assinantes</div><br><br>
-      <div class="escritas">
-
+      
         <div class="box-campos">
-					<label for="nome">Nome:</label>
+					<label for="nome">Nome:</label><br>
 					<input class="formataInput" id="nome" name="nome" type="text" required placeholder="Digite um nome" required minlength="3">	
 				</div>
 
         <div class="box-campos">
-					<label for="email">E-Mail:</label>
+					<label for="email">E-Mail:</label><br>
 					<input class="formataInput" id="email" type="email" required placeholder="nome@email.com">
 				</div>
 
         <div class="box-campos">
-					<label for="senha">Senha:</label>
+					<label for="senha">Senha:</label><br>
 					<input class="formataInput" id="senha" type="password" minlength="6" placeholder="*******" required>
 				</div>
 
@@ -233,16 +177,16 @@
 				</div>
 
         <div class="box-campos">
-					<label for="aniversario">Data de Nascimento:</label>
+					<label for="aniversario">Data de Nascimento:</label><br>
 					<input class="formataInput" id="nascimento" type="date" required>
 				</div>
 
         <div class="box-campos">
-					<label for="idade">Idade:</label>
+					<label for="idade">Idade:</label><br>
 					<input class="formataInput" id="idade" type="number" min="12" placeholder="12">
 				</div>
 
-        <div>
+        <div class="box-campos">
           <label for="pais">Selecione seu país favorito da copa:</label><br>
           <input class="formataInput" name="pais" id="pais" list="x" placeholder="Selecione o seu pais">
           <datalist id="x">
@@ -284,11 +228,11 @@
         <br>
 
         <div class="box-campos">
-          <label for="nota">Seu conhecimento sobre futebol: (0-10)</label>
+          <label for="nota">Seu conhecimento sobre futebol: (0-10)</label><br>
           <input class="formataInput" id="nota" type="range" min="0" max="10">
         </div>
 
-        <br>
+        
 
         <div class="box-campos">
 					<label>Escolha:</label><br>
@@ -296,14 +240,11 @@
 				</div>
 
         <br>
-
-        <button class="formataInput" type="submit" id="botao">Cadastrar</button><br>
-        <br><br>
-
+        <div class="box-campos">
+        <button class="formataInputbtn" type="submit" id="botao">Cadastrar</button><br>
+        <br>
       </div>
-
-    </div>
   </div>
-
+<br><br>
 
 </body>
