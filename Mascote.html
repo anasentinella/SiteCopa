@@ -111,19 +111,23 @@
 
         @keyframes animacaomasc {
           from{
-               width: 5px;
+               width: 50px;
           }
           to{
-               width: 60px;
+               width: 550px;
           }
         }
 
-        div{
+        .animacao{
           animation-name: animacaomasc;
           animation-iteration-count: infinite;
-          animation-delay: 5s;
+          animation-delay: 0s;
           animation-timing-function: cubic-bezier();
+          animation-duration: 8s;
         }
+        hr{
+               border-color:#4D1029 ;
+          }
      </style>
 </head>
 
@@ -146,8 +150,8 @@
 
           <div class="containerpric">
                <div class="flex-itens">
-                    <div>
-                    <img src="img/mascotec.png.png" alt="Mascote Qatar">
+                    <div >
+                    <img class="animacao" src="img/mascotec.png.png" alt="Mascote Qatar">
                     </div>
                </div>
                <div class="flex-itens">
@@ -156,6 +160,7 @@
                </div>
           </div>
           </div>
+          
                <br><br>
                <div class="containerprinc2">
                     <div class="containeres">
